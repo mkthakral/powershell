@@ -24,7 +24,7 @@ Install Powershell from Microsoft documentation
 
 Run follwing command from powershell prompt:
 ```
-.\one-way-sync-powershell-script.ps1
+./one-way-sync-powershell-script.ps1
 ```
 
 Provide user inputs.
