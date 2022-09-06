@@ -46,7 +46,7 @@ Script handles following edge cases:
 
 ### Exception
 Following cases are not handled:
-* On Windows, if a directory is renamed. Script does not sync content inside the renamed directoy. Works fine on Linux
+* On Windows, if a directory is renamed. Script does not sync content inside the renamed directoy on first run, workaround is to run script twice. Works fine on Linux
 * As part of requirement, no file will be copied from Replica to Source directory. Sync is only from Source to Replica directory
 
 
